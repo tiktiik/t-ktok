@@ -1,8 +1,17 @@
-my_website/          # المجلد الرئيسي
-├── app.py           # كود البايثون الرئيسي
-├── templates/       # مجلد القوالب (HTML هنا)
-│   └── index.html   # ملف HTML الخاص بك
-├── static/          # (اختياري) للملفات الثابتة (CSS, JS, صور)
-│   ├── style.css
-│   └── script.js
-└── requirements.txt # قائمة المكتبات المطلوبة
+موقع_شحن_US/
+│
+├── index.html          (الصفحة الرئيسية)
+├── style.css           (تنسيقات الموقع)
+├── script.js           (أكواد الجافاسكريبت)
+│
+├── images/             (مجلد الصور)
+│   ├── background.jpg  (خلفية الموقع)
+│   ├── pubg1.jpg       (صور لعبة PUBG)
+│   ├── pubg2.jpg
+│   ├── pubg3.jpg
+│   ├── logo.png        (لوجو الموقع)
+│   └── uc-card.png     (صورة بطاقة UC)
+│
+└── assets/             (ملفات إضافية إن وجدت)
+    ├── fonts/          (خطوط الموقع)
+    └── icons/          (أيقونات)
